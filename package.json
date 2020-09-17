@@ -3,20 +3,18 @@
   "version": "0.1.1",
    "main": "index.js",
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "16.5.1",
-    "react-native": "0.57.0",
-    "react-native-slider": "^0.11.0"
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbanurag/react-native-comparison-slider.git"
   },
-  "devDependencies": {
-    "babel-jest": "20.0.3",
-    "babel-preset-react-native": "2.1.0",
-    "jest": "20.0.4",
-    "react-test-renderer": "16.0.0-alpha.12"
-  },
+  "keywords": [
+    "react-native",
+    "slider",
+    "before-after",
+    "comparison"
+  ],
   "jest": {
     "preset": "react-native"
   }
