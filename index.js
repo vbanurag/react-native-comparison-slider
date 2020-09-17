@@ -201,5 +201,3 @@ export default class ComparisonSlider extends Component {
 		);
 	}
 }
-
-AppRegistry.registerComponent("ComparisonSlider", () => ComparisonSlider);
